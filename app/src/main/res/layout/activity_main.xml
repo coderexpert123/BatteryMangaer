@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+    android:layout_height="236dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="60%"
+            android:id="@+id/level"
+            android:gravity="center"
+            android:textColor="#101010"
+            android:textSize="34dp"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/voltage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Voltage"
+            android:textColor="#101010"
+            android:textSize="34dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/health"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Health"
+            android:textColor="#101010"
+            android:textSize="34dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/batterytype"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Type"
+            android:textColor="#101010"
+            android:textSize="34dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/chargingSource"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Charging Source"
+            android:textColor="#101010"
+            android:textSize="34dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/temprature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Temprature"
+            android:textColor="#101010"
+            android:textSize="34dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chargingstatis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Charging Statstus"
+        android:textColor="#101010"
+        android:textSize="34dp"
+        android:textStyle="bold">
+
+    </TextView>
+</LinearLayout>
